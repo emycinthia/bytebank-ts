@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+            // versão de compilação
+        
+        "outDir": "./dist/js/",
+            // diretório de output, para onde vão os arquivos compilados
+        
+        "noEmitOnError": true
+            // caso haja erro, o arquivo .js não é gerado
+    },
+
+    "include": [
+        "./src/**/*"           // pastas onde ele deve procurar arquivos para compilar
+    ]
+}
