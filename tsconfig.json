@@ -6,7 +6,8 @@
         "outDir": "./dist/js/",
             // diretório de output, para onde vão os arquivos compilados
         
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        "experimentalDecorators": true
             // caso haja erro, o arquivo .js não é gerado
     },
 
